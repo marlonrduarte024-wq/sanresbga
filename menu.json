@@ -1,0 +1,2217 @@
+{
+    "actualizado": "2026-08-15 12:12:24",
+    "menu": {
+        "ADICIONALES": [
+            {
+                "codigo": "259                 ",
+                "articulo": "AD. QUESO                                                                                           ",
+                "precio": 5000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "4300                ",
+                "articulo": "ADIC. AREPA SANTANDEREANA                                                                           ",
+                "precio": 9500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "4500                ",
+                "articulo": "ADIC. CEBOLLITAS                                                                                    ",
+                "precio": 9500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3100                ",
+                "articulo": "ADIC. CHORIZO                                                                                       ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3000                ",
+                "articulo": "ADIC. CHUNCHULLO 250gr                                                                              ",
+                "precio": 19900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3300                ",
+                "articulo": "ADIC. EMPANADITA SANRES                                                                             ",
+                "precio": 4400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "4400                ",
+                "articulo": "ADIC. GUACAMOLE                                                                                     ",
+                "precio": 9500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "4100                ",
+                "articulo": "ADIC. MADURO                                                                                        ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "4200                ",
+                "articulo": "ADIC. MADURO CON QUESO                                                                              ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3900                ",
+                "articulo": "ADIC. MAZORCA                                                                                       ",
+                "precio": 17900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "4000                ",
+                "articulo": "ADIC. MAZORCA CON QUESO                                                                             ",
+                "precio": 22000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3200                ",
+                "articulo": "ADIC. MORCILLA                                                                                      ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3400                ",
+                "articulo": "ADIC. PAPA CRIOLLA                                                                                  ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3600                ",
+                "articulo": "ADIC. PAPA FRANCESA                                                                                 ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3500                ",
+                "articulo": "ADIC. PAPA SALADA                                                                                   ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3700                ",
+                "articulo": "ADIC. YUCA AL VAPOR                                                                                 ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3800                ",
+                "articulo": "ADIC. YUCA FRITA                                                                                    ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "500                 ",
+                "articulo": "ADICIONAL CHAMPIÑON                                                                                 ",
+                "precio": 15000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "179                 ",
+                "articulo": "ADICIONAL DE BANANO                                                                                 ",
+                "precio": 1000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "133                 ",
+                "articulo": "ADICIONAL TOCINETA                                                                                  ",
+                "precio": 15000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "269                 ",
+                "articulo": "ADICIONALES                                                                                         ",
+                "precio": 5000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "357                 ",
+                "articulo": "CAFÉ                                                                                                ",
+                "precio": 6000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "0200                ",
+                "articulo": "EMPAQUE PARA LLEVAR                                                                                 ",
+                "precio": 2000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "167                 ",
+                "articulo": "MEDIO AGUACATE                                                                                      ",
+                "precio": 9500.0,
+                "iva": 0.0
+            }
+        ],
+        "BEBIDAS FRIAS": [
+            {
+                "codigo": "72                  ",
+                "articulo": "AGUA                                                                                                ",
+                "precio": 5500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "266                 ",
+                "articulo": "AGUA CON GAS                                                                                        ",
+                "precio": 5500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "73                  ",
+                "articulo": "AGUILA                                                                                              ",
+                "precio": 9000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "165                 ",
+                "articulo": "AGUILA LIGTH                                                                                        ",
+                "precio": 9000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "268                 ",
+                "articulo": "CERVEZA MODELO                                                                                      ",
+                "precio": 14000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "74                  ",
+                "articulo": "CLUB COLOMBIA                                                                                       ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "120                 ",
+                "articulo": "COCACOLA                                                                                            ",
+                "precio": 6500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "119                 ",
+                "articulo": "COCACOLA ZERO                                                                                       ",
+                "precio": 6500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "75                  ",
+                "articulo": "CORONA                                                                                              ",
+                "precio": 14000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "525                 ",
+                "articulo": "CORONA CERO                                                                                         ",
+                "precio": 14000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "77                  ",
+                "articulo": "CORONITA                                                                                            ",
+                "precio": 8000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "06                  ",
+                "articulo": "CUBETAZO IMPORTADA                                                                                  ",
+                "precio": 84000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "07                  ",
+                "articulo": "CUBETAZO NACIONAL                                                                                   ",
+                "precio": 54000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "71                  ",
+                "articulo": "KOLA HIPINTO                                                                                        ",
+                "precio": 6500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "78                  ",
+                "articulo": "MICHELADA CLASICA                                                                                   ",
+                "precio": 3000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "175                 ",
+                "articulo": "MICHELADA HORMIGA                                                                                   ",
+                "precio": 5000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "267                 ",
+                "articulo": "MICHELADA MANGO                                                                                     ",
+                "precio": 5000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "174                 ",
+                "articulo": "MICHELADA TAJIN                                                                                     ",
+                "precio": 5000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "355                 ",
+                "articulo": "POSTRE EVENTO                                                                                       ",
+                "precio": 9000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "80                  ",
+                "articulo": "REFAJO DEL CAMPO                                                                                    ",
+                "precio": 25000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "79                  ",
+                "articulo": "REFAJO SANRES                                                                                       ",
+                "precio": 22000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "117                 ",
+                "articulo": "SODA                                                                                                ",
+                "precio": 5500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "76                  ",
+                "articulo": "STELLA ARTOIS                                                                                       ",
+                "precio": 14000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "130                 ",
+                "articulo": "ZUMO DE LIMON                                                                                       ",
+                "precio": 3000.0,
+                "iva": 0.0
+            }
+        ],
+        "BEBIDAS NATURALES": [
+            {
+                "codigo": "168                 ",
+                "articulo": "GUARAPO                                                                                             ",
+                "precio": 5500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "125                 ",
+                "articulo": "JARRA DE LIMONADA NATURAL                                                                           ",
+                "precio": 20000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "126                 ",
+                "articulo": "JARRA DE NARANJA                                                                                    ",
+                "precio": 25000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "164                 ",
+                "articulo": "JARRA LIMONADA PANELA                                                                               ",
+                "precio": 20000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "258                 ",
+                "articulo": "JUGO DE FRESA                                                                                       ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "69                  ",
+                "articulo": "JUGO DE LULO                                                                                        ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "67                  ",
+                "articulo": "JUGO DE MANGO                                                                                       ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "257                 ",
+                "articulo": "JUGO DE MARACUYA                                                                                    ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "68                  ",
+                "articulo": "JUGO DE MORA                                                                                        ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "65                  ",
+                "articulo": "LIMONADA DE CEREZA                                                                                  ",
+                "precio": 12000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "64                  ",
+                "articulo": "LIMONADA DE COCO                                                                                    ",
+                "precio": 15000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "61                  ",
+                "articulo": "LIMONADA DE PANELA                                                                                  ",
+                "precio": 7200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "62                  ",
+                "articulo": "LIMONADA NATURAL                                                                                    ",
+                "precio": 7200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "02                  ",
+                "articulo": "LIMONADA SANTANDEREANA                                                                              ",
+                "precio": 8000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "63                  ",
+                "articulo": "LIMONADA YERBA BUENA                                                                                ",
+                "precio": 12000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "01                  ",
+                "articulo": "NARANJADA                                                                                           ",
+                "precio": 9000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "173                 ",
+                "articulo": "SODA FRUTOS AMARILLOS                                                                               ",
+                "precio": 14000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "172                 ",
+                "articulo": "SODA FRUTOS ROJOS                                                                                   ",
+                "precio": 14000.0,
+                "iva": 0.0
+            }
+        ],
+        "CANASTA ": [
+            {
+                "codigo": "43                  ",
+                "articulo": "AREPA CANASTA                                                                                       ",
+                "precio": 9500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "107                 ",
+                "articulo": "CARNE DE RES CANASTA                                                                                ",
+                "precio": 31000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "45                  ",
+                "articulo": "CEBOLLITAS CANASTA                                                                                  ",
+                "precio": 9500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "112                 ",
+                "articulo": "CHATAS CANASTAS                                                                                     ",
+                "precio": 39000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "115                 ",
+                "articulo": "CHICHARRON CANASTA                                                                                  ",
+                "precio": 29000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "31                  ",
+                "articulo": "CHORIZO CANASTA                                                                                     ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "30                  ",
+                "articulo": "CHUNCHULLO CANASTA                                                                                  ",
+                "precio": 19900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "114                 ",
+                "articulo": "COSTILLA DE CERDO CANASTA                                                                           ",
+                "precio": 40000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "33                  ",
+                "articulo": "EMPANADITA CANASTA                                                                                  ",
+                "precio": 4400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "44                  ",
+                "articulo": "GUACAMOLE CANASTA                                                                                   ",
+                "precio": 9500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "116                 ",
+                "articulo": "LOMO DE CERDO CANASTA                                                                               ",
+                "precio": 40000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "41                  ",
+                "articulo": "MADURO CANASTA                                                                                      ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "42                  ",
+                "articulo": "MADURO CON QUESO CANASTA                                                                            ",
+                "precio": 13800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "39                  ",
+                "articulo": "MAZORCA CANASTA                                                                                     ",
+                "precio": 17900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "40                  ",
+                "articulo": "MAZORCA CON QUESO CANASTA                                                                           ",
+                "precio": 22000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "32                  ",
+                "articulo": "MORCILLA CANASTA                                                                                    ",
+                "precio": 12500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "108                 ",
+                "articulo": "OREADA CANASTA                                                                                      ",
+                "precio": 39000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "34                  ",
+                "articulo": "PAPA CRIOLLA CANASTA                                                                                ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "36                  ",
+                "articulo": "PAPA FRANCESA CANASTA                                                                               ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "35                  ",
+                "articulo": "PAPA SALADA CANASTA                                                                                 ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "109                 ",
+                "articulo": "PECHUGA CANASTA                                                                                     ",
+                "precio": 29000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "113                 ",
+                "articulo": "PUNTA DE ANCA CANASTA                                                                               ",
+                "precio": 39000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "111                 ",
+                "articulo": "SOBREBARRIGA CANASTA                                                                                ",
+                "precio": 39000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "38                  ",
+                "articulo": "YUCA FRITA CANASTA                                                                                  ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "37                  ",
+                "articulo": "YUCA VAPOR CANASTA                                                                                  ",
+                "precio": 10000.0,
+                "iva": 0.0
+            }
+        ],
+        "COCTELES": [
+            {
+                "codigo": "306                 ",
+                "articulo": "2X1 MARGARITA COCTEL                                                                                ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "89                  ",
+                "articulo": "APEROL                                                                                              ",
+                "precio": 32000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "283                 ",
+                "articulo": "CAIPIROSKA                                                                                          ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "86                  ",
+                "articulo": "GIN&TONIC                                                                                           ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "81                  ",
+                "articulo": "MARGARITA COPA                                                                                      ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "284                 ",
+                "articulo": "MOJITO                                                                                              ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "286                 ",
+                "articulo": "OTRO COCTEL                                                                                         ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "87                  ",
+                "articulo": "PIÑA COLADA                                                                                         ",
+                "precio": 20000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "84                  ",
+                "articulo": "SANGRIA COPA                                                                                        ",
+                "precio": 32000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "85                  ",
+                "articulo": "SANGRIA JARRA                                                                                       ",
+                "precio": 88000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "135                 ",
+                "articulo": "SHOT DE TEQUILLA                                                                                    ",
+                "precio": 30000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "521                 ",
+                "articulo": "SHOT DE WHISKY                                                                                      ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "82                  ",
+                "articulo": "TINTO DE VERANO COPA                                                                                ",
+                "precio": 32000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "83                  ",
+                "articulo": "TINTO DE VERANO JARRA                                                                               ",
+                "precio": 88000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "88                  ",
+                "articulo": "WHISKEY SOUR                                                                                        ",
+                "precio": 35000.0,
+                "iva": 0.0
+            }
+        ],
+        "CORTES A LA PARRILLA": [
+            {
+                "codigo": "13                  ",
+                "articulo": "CARNE ASADA 200gr                                                                                   ",
+                "precio": 35200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "14                  ",
+                "articulo": "CARNE ASADA 400gr                                                                                   ",
+                "precio": 57200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "19                  ",
+                "articulo": "CARNE OREADA 200gr                                                                                  ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "20                  ",
+                "articulo": "CARNE OREADA 400gr                                                                                  ",
+                "precio": 72000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "260                 ",
+                "articulo": "CHATA EN BLOQUE 200GR                                                                               ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "261                 ",
+                "articulo": "CHATA EN BLOQUE 400 GR                                                                              ",
+                "precio": 72000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "15                  ",
+                "articulo": "CHATAS 200gr                                                                                        ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "16                  ",
+                "articulo": "CHATAS 400gr                                                                                        ",
+                "precio": 72000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "291                 ",
+                "articulo": "CHATAS EVENTO                                                                                       ",
+                "precio": 51000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "27                  ",
+                "articulo": "COSTILLAS BBQ 200gr                                                                                 ",
+                "precio": 45000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "28                  ",
+                "articulo": "COSTILLAS BBQ 400gr                                                                                 ",
+                "precio": 67000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "25                  ",
+                "articulo": "LOMO DE CERDO 200gr                                                                                 ",
+                "precio": 38000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "26                  ",
+                "articulo": "LOMO DE CERDO 400gr                                                                                 ",
+                "precio": 59000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "271                 ",
+                "articulo": "LOMO FINO RES 200GR                                                                                 ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "272                 ",
+                "articulo": "LOMO FINO RES 400 GR                                                                                ",
+                "precio": 72000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "274                 ",
+                "articulo": "MOJARRA                                                                                             ",
+                "precio": 59000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "23                  ",
+                "articulo": "PECHUGA 200gr                                                                                       ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "24                  ",
+                "articulo": "PECHUGA 400gr                                                                                       ",
+                "precio": 57000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "17                  ",
+                "articulo": "PUNTA DE ANCA 200gr                                                                                 ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "18                  ",
+                "articulo": "PUNTA DE ANCA 400gr                                                                                 ",
+                "precio": 72000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "29                  ",
+                "articulo": "SALMON A LA PARRILLA                                                                                ",
+                "precio": 59000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "21                  ",
+                "articulo": "SOBREBARRIGA 200gr                                                                                  ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "22                  ",
+                "articulo": "SOBREBARRIGA 400gr                                                                                  ",
+                "precio": 72000.0,
+                "iva": 0.0
+            }
+        ],
+        "HAMB. Y DESGRANADOS": [
+            {
+                "codigo": "51                  ",
+                "articulo": "DESGRANADO DE CERDO                                                                                 ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "52                  ",
+                "articulo": "DESGRANADO DE POLLO                                                                                 ",
+                "precio": 29000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "50                  ",
+                "articulo": "DESGRANADO DE RES                                                                                   ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "265                 ",
+                "articulo": "DESGRANADO OREADA                                                                                   ",
+                "precio": 35000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "4                   ",
+                "articulo": "MENÚ INFANTIL                                                                                       ",
+                "precio": 21000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "262                 ",
+                "articulo": "SANBURGER CEBÚ H                                                                                    ",
+                "precio": 40000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "264                 ",
+                "articulo": "SANBURGER CHAMPIÑON                                                                                 ",
+                "precio": 40000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "48                  ",
+                "articulo": "SANBURGER CLASICA                                                                                   ",
+                "precio": 28000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "49                  ",
+                "articulo": "SANBURGER DEL TORO                                                                                  ",
+                "precio": 40000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "263                 ",
+                "articulo": "SANBURGER TOCINETA                                                                                  ",
+                "precio": 40000.0,
+                "iva": 0.0
+            }
+        ],
+        "LICORES": [
+            {
+                "codigo": "90                  ",
+                "articulo": "AGUARDIENTE AMARILLO 750ml                                                                          ",
+                "precio": 98000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "160                 ",
+                "articulo": "AGUARDIENTE TAPA AZUL 375 ML                                                                        ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "91                  ",
+                "articulo": "AGUARDIENTE TAPA AZUL 750ml                                                                         ",
+                "precio": 98000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "93                  ",
+                "articulo": "BUCHANANS 12 AÑOS 750ml                                                                             ",
+                "precio": 290000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "94                  ",
+                "articulo": "BUCHANANS MASTER                                                                                    ",
+                "precio": 320000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "163                 ",
+                "articulo": "DESCORCHE DE LICOR                                                                                  ",
+                "precio": 50000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "150                 ",
+                "articulo": "DON JULIO REPOSADO 700ML                                                                            ",
+                "precio": 460000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "96                  ",
+                "articulo": "JOSE CUERVO REPOSADO                                                                                ",
+                "precio": 160000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "95                  ",
+                "articulo": "JOSE CUERVO SILVER                                                                                  ",
+                "precio": 160000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "305                 ",
+                "articulo": "JP CHENET MUSCAT DORADO                                                                             ",
+                "precio": 120000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "273                 ",
+                "articulo": "MONKEY SHOULDER                                                                                     ",
+                "precio": 250000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "92                  ",
+                "articulo": "OLD PARR 12 AÑOS 750ml                                                                              ",
+                "precio": 280000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "190                 ",
+                "articulo": "TEQUILA DON JULIO                                                                                   ",
+                "precio": 500000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "155                 ",
+                "articulo": "TEQUILA DON JULIO AÑEJO 700ML                                                                       ",
+                "precio": 460000.0,
+                "iva": 0.0
+            }
+        ],
+        "MOUFFLET": [
+            {
+                "codigo": "332                 ",
+                "articulo": "ALFAJOR                                                                                             ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "309                 ",
+                "articulo": "ALMOJABANA PORCIÓN                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "276                 ",
+                "articulo": "AMAPOLA PORCIÒN                                                                                     ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "313                 ",
+                "articulo": "AMERICANO                                                                                           ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "297                 ",
+                "articulo": "ARÁNDANOS PORCIÓN                                                                                   ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "317                 ",
+                "articulo": "AROMATICA FR                                                                                        ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "318                 ",
+                "articulo": "AROMATICA MY                                                                                        ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "280                 ",
+                "articulo": "ATENEA PORCIÓN                                                                                      ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "316                 ",
+                "articulo": "CAMPESINO                                                                                           ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "322                 ",
+                "articulo": "CAPUCHINO AMARETTO                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "320                 ",
+                "articulo": "CAPUCHINO BAILEYS                                                                                   ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "323                 ",
+                "articulo": "CAPUCHINO MACADAMIA                                                                                 ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "319                 ",
+                "articulo": "CAPUCHINO TRADICIONAL                                                                               ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "321                 ",
+                "articulo": "CAPUCHINO VAINILLA                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "304                 ",
+                "articulo": "CHEESCAKE FROJOS PORCIÓN                                                                            ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "307                 ",
+                "articulo": "CHEESECAKE MARACUYA PORCIÓN                                                                         ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "308                 ",
+                "articulo": "CHEESECAKE PISTACHO PORCIÓN                                                                         ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "302                 ",
+                "articulo": "CHOCOFLAN PORCIÓN                                                                                   ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "278                 ",
+                "articulo": "CHOCOLATE PORCIÓN                                                                                   ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "336                 ",
+                "articulo": "COCO AVENA GALLETA                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "331                 ",
+                "articulo": "CONO MERENGUE                                                                                       ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "299                 ",
+                "articulo": "DE LA ABUELA PORCIÓN                                                                                ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "312                 ",
+                "articulo": "ESPRESSO                                                                                            ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "292                 ",
+                "articulo": "FANTASIA PORCIÓN                                                                                    ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "333                 ",
+                "articulo": "GALLETA MANTEQUILLA                                                                                 ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "335                 ",
+                "articulo": "GALLETA NEW YORK                                                                                    ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "328                 ",
+                "articulo": "GRANIZADO AREQUIPE                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "327                 ",
+                "articulo": "GRANIZADO CAFE                                                                                      ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "296                 ",
+                "articulo": "GUANABANA PORCIÓN                                                                                   ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "334                 ",
+                "articulo": "HOJALDRADA GALLETA                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "314                 ",
+                "articulo": "LATTE                                                                                               ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "325                 ",
+                "articulo": "LATTE FRIO                                                                                          ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "326                 ",
+                "articulo": "LATTE FRIO VAINILLA                                                                                 ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "310                 ",
+                "articulo": "LECHE ASADA PORCIÓN                                                                                 ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "324                 ",
+                "articulo": "MACCHIATO                                                                                           ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "295                 ",
+                "articulo": "MALUZ PORCIÓN                                                                                       ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "277                 ",
+                "articulo": "MARACUYA PORCIÓN                                                                                    ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "293                 ",
+                "articulo": "MASCARPONE PORCIÓN                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "311                 ",
+                "articulo": "MERENGON                                                                                            ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "303                 ",
+                "articulo": "MILHOJAS                                                                                            ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "315                 ",
+                "articulo": "MOCCACCINO                                                                                          ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "340                 ",
+                "articulo": "MONOPORCIÓN                                                                                         ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "275                 ",
+                "articulo": "QUESADILLA PORCIÓN                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "279                 ",
+                "articulo": "RED VELVET PORCIÓN                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "330                 ",
+                "articulo": "SODA HATSU                                                                                          ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "338                 ",
+                "articulo": "TORTA 1/2 LIBRA                                                                                     ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "339                 ",
+                "articulo": "TORTA 1/4 LIBRA                                                                                     ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "298                 ",
+                "articulo": "TRESLECHES AREQUIPE PORCIÓN                                                                         ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "329                 ",
+                "articulo": "VASO LECHE                                                                                          ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "337                 ",
+                "articulo": "VINO PICCOLO 185ML                                                                                  ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "301                 ",
+                "articulo": "VINO PORCIÓN                                                                                        ",
+                "precio": 0.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "294                 ",
+                "articulo": "ZANAHORIA PORCIÓN                                                                                   ",
+                "precio": 0.0,
+                "iva": 0.0
+            }
+        ],
+        "OTROS": [
+            {
+                "codigo": "162                 ",
+                "articulo": "DECORACIO 180                                                                                       ",
+                "precio": 180000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "282                 ",
+                "articulo": "DESCORCHE TORTA                                                                                     ",
+                "precio": 30000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "288                 ",
+                "articulo": "SHOT SALADO EVENTO                                                                                  ",
+                "precio": 7000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "281                 ",
+                "articulo": "VELA VOLCAN                                                                                         ",
+                "precio": 5000.0,
+                "iva": 0.0
+            }
+        ],
+        "PARA LA NOCHE": [
+            {
+                "codigo": "54                  ",
+                "articulo": "1/2 CALDO DE COSTILLA                                                                               ",
+                "precio": 16000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "53                  ",
+                "articulo": "1/2 CALDO DE HUEVO SANTANDEREANO                                                                    ",
+                "precio": 14000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "252                 ",
+                "articulo": "1/2 DESAYUNO SANRES COSTILLA CHATAS                                                                 ",
+                "precio": 38000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "253                 ",
+                "articulo": "1/2 DESAYUNO SANRES COSTILLA OREADA                                                                 ",
+                "precio": 38000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "56                  ",
+                "articulo": "1/2 DESAYUNO SANRES HUEVO CHATAS                                                                    ",
+                "precio": 38000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "251                 ",
+                "articulo": "1/2 DESAYUNO SANRES HUEVO OREADA                                                                    ",
+                "precio": 38000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "250                 ",
+                "articulo": "1/2 DESAYUNO TIPICO COSTILLA                                                                        ",
+                "precio": 32000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "55                  ",
+                "articulo": "1/2 DESAYUNO TIPICO HUEVO                                                                           ",
+                "precio": 32000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "58                  ",
+                "articulo": "CALDO DE COSTILLA                                                                                   ",
+                "precio": 24000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "57                  ",
+                "articulo": "CALDO DE HUEVO SANTANDEREANO                                                                        ",
+                "precio": 21000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "566                 ",
+                "articulo": "DESAYUNO EJECUTIVO                                                                                  ",
+                "precio": 51000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "255                 ",
+                "articulo": "DESAYUNO SANRES COSTILLA CHATAS                                                                     ",
+                "precio": 57000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "254                 ",
+                "articulo": "DESAYUNO SANRES COSTILLA OREADA                                                                     ",
+                "precio": 57000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "60                  ",
+                "articulo": "DESAYUNO SANRES HUEVO CHATAS                                                                        ",
+                "precio": 57000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "256                 ",
+                "articulo": "DESAYUNO SANRES HUEVO OREADA                                                                        ",
+                "precio": 57000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "176                 ",
+                "articulo": "DESAYUNO TIPICO CALDO COSTILLA                                                                      ",
+                "precio": 49000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "59                  ",
+                "articulo": "DESAYUNO TIPICO CALDO HUEVO                                                                         ",
+                "precio": 49000.0,
+                "iva": 0.0
+            }
+        ],
+        "PARA PICAR": [
+            {
+                "codigo": "6                   ",
+                "articulo": "CANASTA EMPANADAS SANRES                                                                            ",
+                "precio": 22000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "5                   ",
+                "articulo": "CHICHARRON CARNUDO                                                                                  ",
+                "precio": 32000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "3                   ",
+                "articulo": "CHORIZO PAISA Y MORCILLA                                                                            ",
+                "precio": 29000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "2                   ",
+                "articulo": "CHORIZOS CON MELAO                                                                                  ",
+                "precio": 25000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "171                 ",
+                "articulo": "CHUNCHULLO FAMILIAR                                                                                 ",
+                "precio": 29000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "1                   ",
+                "articulo": "ENSALADA DEL CAMPO                                                                                  ",
+                "precio": 22000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "7                   ",
+                "articulo": "MAZORCA ASADA                                                                                       ",
+                "precio": 17900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "166                 ",
+                "articulo": "MAZORCA ESPECIAL                                                                                    ",
+                "precio": 22000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "132                 ",
+                "articulo": "MORILLO DE CEBU A LA PARRILLA                                                                       ",
+                "precio": 29500.0,
+                "iva": 0.0
+            }
+        ],
+        "PARRILLADAS": [
+            {
+                "codigo": "300                 ",
+                "articulo": "PARRILLADA EVENTO SUBASTA                                                                           ",
+                "precio": 160000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "285                 ",
+                "articulo": "PARRILLADA X 2                                                                                      ",
+                "precio": 106000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "46                  ",
+                "articulo": "PARRILLADA X 4                                                                                      ",
+                "precio": 260000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "47                  ",
+                "articulo": "PARRILLADA X 6                                                                                      ",
+                "precio": 368000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "356                 ",
+                "articulo": "PLATO EVENTO                                                                                        ",
+                "precio": 60000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "12                  ",
+                "articulo": "PLATO SANRES X1                                                                                     ",
+                "precio": 68000.0,
+                "iva": 0.0
+            }
+        ],
+        "RAPPI": [
+            {
+                "codigo": "220                 ",
+                "articulo": "1/2  Caldo de Huevo: con Chatas RAPPI                                                               ",
+                "precio": 43700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "214                 ",
+                "articulo": "1/2 Caldo de Costilla y Arepa RAPPI                                                                 ",
+                "precio": 18400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "218                 ",
+                "articulo": "1/2 Caldo de Costilla: con carne res  RAPPI                                                         ",
+                "precio": 36800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "222                 ",
+                "articulo": "1/2 Caldo de Costilla: con Chatas RAPPI                                                             ",
+                "precio": 43700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "226                 ",
+                "articulo": "1/2 Caldo de Costilla: Oreada RAPPI                                                                 ",
+                "precio": 43700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "212                 ",
+                "articulo": "1/2 Caldo de Huevo y Arepa RAPPI                                                                    ",
+                "precio": 16100.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "224                 ",
+                "articulo": "1/2 Caldo de Huevo: con Carne Oreada RAPPI                                                          ",
+                "precio": 43700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "216                 ",
+                "articulo": "1/2 Caldo de huevo: con carne res RAPPI                                                             ",
+                "precio": 36800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "229                 ",
+                "articulo": "ADICIONAL DE TOCINETA RAPPI                                                                         ",
+                "precio": 17200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "230                 ",
+                "articulo": "ADICIONAL SALSA CHAMPIÑON RAPPI                                                                     ",
+                "precio": 17200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "245                 ",
+                "articulo": "AGUA RAPPI                                                                                          ",
+                "precio": 4600.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "247                 ",
+                "articulo": "AGUILA LATA RAPPI                                                                                   ",
+                "precio": 10400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "248                 ",
+                "articulo": "AGUILA LIGHT LATA RAPPI                                                                             ",
+                "precio": 10400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "207                 ",
+                "articulo": "Arepa Santandereana CANASTA RAPPI                                                                   ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "213                 ",
+                "articulo": "Caldo de Costilla y Arepa RAPPI                                                                     ",
+                "precio": 32200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "217                 ",
+                "articulo": "Caldo de Costilla: con carne res RAPPI                                                              ",
+                "precio": 56400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "221                 ",
+                "articulo": "Caldo de Costilla: con Chatas RAPPI                                                                 ",
+                "precio": 65600.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "225                 ",
+                "articulo": "Caldo de Costilla: Oreada RAPPI                                                                     ",
+                "precio": 65600.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "211                 ",
+                "articulo": "Caldo de Huevo y Arepa RAPPI                                                                        ",
+                "precio": 26500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "215                 ",
+                "articulo": "Caldo de huevo: con carne res RAPPI                                                                 ",
+                "precio": 56400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "219                 ",
+                "articulo": "Caldo de Huevo: con Chatas RAPPI                                                                    ",
+                "precio": 65600.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "223                 ",
+                "articulo": "Caldo de Huevo: Oreada RAPPI                                                                        ",
+                "precio": 65600.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "140                 ",
+                "articulo": "CANASTA EMPANADITAS RAPPI                                                                           ",
+                "precio": 23000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "149                 ",
+                "articulo": "CARNE ASADA 200 GR RAPPI                                                                            ",
+                "precio": 36800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "151                 ",
+                "articulo": "CARNE ASADA 400GR RAPPI                                                                             ",
+                "precio": 59800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "185                 ",
+                "articulo": "Carne de res CANASTA RAPPI                                                                          ",
+                "precio": 33400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "157                 ",
+                "articulo": "CARNE OREADA 200GR RAPPI                                                                            ",
+                "precio": 51700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "158                 ",
+                "articulo": "CARNE OREADA 400GR RAPPI                                                                            ",
+                "precio": 74700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "186                 ",
+                "articulo": "Carne Oreada CANASTA RAPPI                                                                          ",
+                "precio": 41400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "209                 ",
+                "articulo": "Cebollitas CANASTA RAPPI                                                                            ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "152                 ",
+                "articulo": "CHATAS 200 GR RAPPI                                                                                 ",
+                "precio": 52800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "153                 ",
+                "articulo": "CHATAS 400GR RAPPI                                                                                  ",
+                "precio": 75800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "188                 ",
+                "articulo": "Chatas CANASTA RAPPI                                                                                ",
+                "precio": 43700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "193                 ",
+                "articulo": "Chicharron Carnudo CANASTA RAPPI                                                                    ",
+                "precio": 33400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "139                 ",
+                "articulo": "CHICHARRON CARNUDO RAPPI                                                                            ",
+                "precio": 34000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "196                 ",
+                "articulo": "Chorizo CANASTA RAPPI                                                                               ",
+                "precio": 11400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "136                 ",
+                "articulo": "CHORIZO PAISA Y MORCILLA RAPPI                                                                      ",
+                "precio": 31500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "131                 ",
+                "articulo": "CHORIZOS MELAO RAPPI                                                                                ",
+                "precio": 26500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "195                 ",
+                "articulo": "Chunchullo 250gr CANASTA RAPPI                                                                      ",
+                "precio": 22900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "137                 ",
+                "articulo": "CHUNCHULLO CROCANTE RAPPI                                                                           ",
+                "precio": 31100.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "138                 ",
+                "articulo": "CHUNCHULLO FAMILIAR RAPPI                                                                           ",
+                "precio": 42600.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "249                 ",
+                "articulo": "CLUB COLOMBIA DORADA LATA RAPPI                                                                     ",
+                "precio": 11500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "242                 ",
+                "articulo": "COCACOLA 400 ML RAPPI                                                                               ",
+                "precio": 6900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "243                 ",
+                "articulo": "COCACOLA ZERO 400 ML RAPPI                                                                          ",
+                "precio": 6900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "192                 ",
+                "articulo": "Costilla de Cerdo CANASTA RAPPI                                                                     ",
+                "precio": 46000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "182                 ",
+                "articulo": "COSTILLAS DE CERDO BBQ 200GR RAPPI                                                                  ",
+                "precio": 47000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "183                 ",
+                "articulo": "COSTILLAS DE CERDO BBQ 400GR RAPPI                                                                  ",
+                "precio": 70000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "232                 ",
+                "articulo": "DESGRANADO DE CERDO RAPPI                                                                           ",
+                "precio": 40300.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "233                 ",
+                "articulo": "DESGRANADO DE POLLO RAPPI                                                                           ",
+                "precio": 33400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "231                 ",
+                "articulo": "DESGRANADO DE RES RAPPI                                                                             ",
+                "precio": 40300.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "198                 ",
+                "articulo": "Empanadita CANASTA RAPPI                                                                            ",
+                "precio": 4600.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "287                 ",
+                "articulo": "ENSALADA RAPPI                                                                                      ",
+                "precio": 18035.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "145                 ",
+                "articulo": "FRIJOLES PAISAS RAPPI                                                                               ",
+                "precio": 52800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "208                 ",
+                "articulo": "Guacamole CANASTA RAPPI                                                                             ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "246                 ",
+                "articulo": "GUARAPO RAPPI                                                                                       ",
+                "precio": 16100.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "227                 ",
+                "articulo": "HAMBURGUESA 150gr RAPPI                                                                             ",
+                "precio": 31100.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "228                 ",
+                "articulo": "HAMBURGUESA DEL TORO RAPPI                                                                          ",
+                "precio": 46000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "238                 ",
+                "articulo": "JUGO DE MARACUYA RAPPI                                                                              ",
+                "precio": 14400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "240                 ",
+                "articulo": "JUGO DE MORA RAPPI                                                                                  ",
+                "precio": 14400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "241                 ",
+                "articulo": "KOLA HIPINTO 400ML  RAPPI                                                                           ",
+                "precio": 6900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "237                 ",
+                "articulo": "LIMONADA DE CEREZA RAPPI                                                                            ",
+                "precio": 13800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "239                 ",
+                "articulo": "LIMONADA DE COCO RAPPI                                                                              ",
+                "precio": 16100.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "234                 ",
+                "articulo": "LIMONADA DE HIERBABUENA RAPPI                                                                       ",
+                "precio": 13800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "235                 ",
+                "articulo": "LIMONADA DE PANELA RAPPI                                                                            ",
+                "precio": 8300.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "236                 ",
+                "articulo": "LIMONADA NATURAL RAPPI                                                                              ",
+                "precio": 8300.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "180                 ",
+                "articulo": "LOMO DE CERDO 200GR RAPPI                                                                           ",
+                "precio": 40500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "181                 ",
+                "articulo": "LOMO DE CERDO 400GR RAPPI                                                                           ",
+                "precio": 63300.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "191                 ",
+                "articulo": "Lomo de Cerdo CANASTA RAPPI                                                                         ",
+                "precio": 46000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "205                 ",
+                "articulo": "Maduro CANASTA RAPPI                                                                                ",
+                "precio": 11400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "206                 ",
+                "articulo": "Maduro con Queso CANASTA RAPPI                                                                      ",
+                "precio": 14400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "203                 ",
+                "articulo": "Mazorca CANASTA RAPPI                                                                               ",
+                "precio": 17200.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "204                 ",
+                "articulo": "Mazorca con Queso CANASTA RAPPI                                                                     ",
+                "precio": 19500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "142                 ",
+                "articulo": "MAZORCA ESPECIAL RAPPI                                                                              ",
+                "precio": 22900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "141                 ",
+                "articulo": "MAZORCA RAPPI                                                                                       ",
+                "precio": 19500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "197                 ",
+                "articulo": "Morcilla CANASTA RAPPI                                                                              ",
+                "precio": 13300.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "144                 ",
+                "articulo": "MUTE RAPPI                                                                                          ",
+                "precio": 41300.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "199                 ",
+                "articulo": "Papa Criolla CANASTA RAPPI                                                                          ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "201                 ",
+                "articulo": "Papa Francesa CANASTA RAPPI                                                                         ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "200                 ",
+                "articulo": "Papa Salada CANASTA RAPPI                                                                           ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "146                 ",
+                "articulo": "PARRILLADA PARA 4 RAPPI                                                                             ",
+                "precio": 279500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "147                 ",
+                "articulo": "PARRILLADA PARA 6 RAPPI                                                                             ",
+                "precio": 396000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "169                 ",
+                "articulo": "PECHUGA 200GR RAPPI                                                                                 ",
+                "precio": 36800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "177                 ",
+                "articulo": "PECHUGA 400GR RAPPI                                                                                 ",
+                "precio": 59800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "194                 ",
+                "articulo": "Pechuga CANASTA RAPPI                                                                               ",
+                "precio": 33400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "148                 ",
+                "articulo": "PLATO SANRES RAPPI                                                                                  ",
+                "precio": 74800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "154                 ",
+                "articulo": "PUNTA DE ANCA 200GR RAPPI                                                                           ",
+                "precio": 52800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "156                 ",
+                "articulo": "PUNTA DE ANCA 400GR RAPPI                                                                           ",
+                "precio": 75800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "189                 ",
+                "articulo": "Punta de Anca CANASTA RAPPI                                                                         ",
+                "precio": 43700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "184                 ",
+                "articulo": "SALMON A LA PARRILLA RAPPI                                                                          ",
+                "precio": 67900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "159                 ",
+                "articulo": "SOBREBARRIGA 200GR RAPPI                                                                            ",
+                "precio": 51700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "161                 ",
+                "articulo": "SOBREBARRIGA 400GR RAPPI                                                                            ",
+                "precio": 74700.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "187                 ",
+                "articulo": "Sobrebarriga CANASTA RAPPI                                                                          ",
+                "precio": 41400.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "244                 ",
+                "articulo": "SODA RAPPI                                                                                          ",
+                "precio": 5800.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "143                 ",
+                "articulo": "SOPITA DE ARROZ RAPPI                                                                               ",
+                "precio": 19500.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "210                 ",
+                "articulo": "Yuca al Vapor CANASTA RAPPI                                                                         ",
+                "precio": 10900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "202                 ",
+                "articulo": "Yuca Frita CANASTA RAPPI                                                                            ",
+                "precio": 10900.0,
+                "iva": 0.0
+            }
+        ],
+        "RESERVAS ": [
+            {
+                "codigo": "04                  ",
+                "articulo": "1 GLOBO                                                                                             ",
+                "precio": 10000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "515                 ",
+                "articulo": "BONO REGALO                                                                                         ",
+                "precio": 250000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "178                 ",
+                "articulo": "DECORACIÓN SIN TORTA                                                                                ",
+                "precio": 40000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "270                 ",
+                "articulo": "HAMBURGUESA + GASEOSA                                                                               ",
+                "precio": 30000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "352                 ",
+                "articulo": "PERSONAL DE SERVICIO                                                                                ",
+                "precio": 100000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "122                 ",
+                "articulo": "RESERVA  PARA 2                                                                                     ",
+                "precio": 70000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "124                 ",
+                "articulo": "RESERVA PARA 12 A16                                                                                 ",
+                "precio": 175000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "123                 ",
+                "articulo": "RESERVA PARA 8 A 10                                                                                 ",
+                "precio": 140000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "289                 ",
+                "articulo": "SERVICIO AUDIOVISUAL                                                                                ",
+                "precio": 350000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "290                 ",
+                "articulo": "SERVICIO DE RESTAURANTE                                                                             ",
+                "precio": 280000.0,
+                "iva": 0.0
+            }
+        ],
+        "SOPAS Y OTROS": [
+            {
+                "codigo": "11                  ",
+                "articulo": "FRIJOLES PAISAS                                                                                     ",
+                "precio": 45900.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "8                   ",
+                "articulo": "MEDIO MUTE, SIN ACOMPAÑAMIENTO                                                                      ",
+                "precio": 20000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "10                  ",
+                "articulo": "MUTE SANTANDEREANO                                                                                  ",
+                "precio": 28000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "9                   ",
+                "articulo": "SOPITA DE ARROZ                                                                                     ",
+                "precio": 16900.0,
+                "iva": 0.0
+            }
+        ],
+        "VINOS": [
+            {
+                "codigo": "99                  ",
+                "articulo": "CELIA RESERVA MALBEC                                                                                ",
+                "precio": 110000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "533                 ",
+                "articulo": "ESPUMANTE FRIZZANTINO BRUT                                                                          ",
+                "precio": 90000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "102                 ",
+                "articulo": "FINCA LAS MORAS BARREL SELECT CAHDONNAY                                                             ",
+                "precio": 119000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "101                 ",
+                "articulo": "FINCA LAS MORAS VARIETAL MALBEC                                                                     ",
+                "precio": 99000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "103                 ",
+                "articulo": "MICHEL TORINO COLECCION                                                                             ",
+                "precio": 99000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "105                 ",
+                "articulo": "PICCINI LAMBRUSCO ROSSATO                                                                           ",
+                "precio": 75000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "97                  ",
+                "articulo": "RAMON BILBAO CRIANZA TEMPRANILLO                                                                    ",
+                "precio": 119000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "104                 ",
+                "articulo": "SANT CAROLINA RESERVA ROSE                                                                          ",
+                "precio": 119000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "100                 ",
+                "articulo": "TARAPACA RESERVA MERLOT                                                                             ",
+                "precio": 110000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "98                  ",
+                "articulo": "TRAPICHE RESERVA PINOT NOIR                                                                         ",
+                "precio": 119000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "512                 ",
+                "articulo": "VINO BLANCO MAR DE FRADES                                                                           ",
+                "precio": 250000.0,
+                "iva": 0.0
+            },
+            {
+                "codigo": "110                 ",
+                "articulo": "VINO QUINTA  LAS CABRAS                                                                             ",
+                "precio": 90000.0,
+                "iva": 0.0
+            }
+        ]
+    }
+}
