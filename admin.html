@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Archivos</title>
+    <style>
+        :root {
+            --primary: #0F2C59;
+            --primary-light: #1B4D89;
+            --bg: #f4f6f9;
+            --card-bg: #ffffff;
+            --text: #111827;
+            --text-muted: #6B7280;
+            --border: #E5E7EB;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .titulo-cliente {
+            font-size: 1.4rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+
+        .subtitulo {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .lista-archivos {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .item-archivo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: #fafafa;
+            transition: background 0.2s ease;
+        }
+
+        .item-archivo:hover {
+            background: #f0f4f8;
+        }
+
+        .info-archivo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
+        }
+
+        .icono {
+            font-size: 1.2rem;
+        }
+
+        .nombre-archivo {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .btn-descargar {
+            background-color: var(--primary);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-descargar:hover {
+            background-color: var(--primary-light);
+        }
+
+        .estado {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="titulo-cliente" id="nombre-cliente">SANRES_BUC</h1>
+            <p class="subtitulo">Archivos y cierres disponibles</p>
+        </header>
+
+        <div id="contenedor-lista">
+            <div class="estado">Cargando archivos...</div>
+        </div>
+    </div>
+
+    <script>
+        // CONFIGURACIÓN DE PARÁMETROS
+        const CLIENTE_ID = "sanres_buc"; 
+        const URL_BASE_API = "https://nube-ascomp.menwapp.com";
+        const API_KEY = "Ascomp22*";
+
+        async function obtenerArchivosCliente() {
+            const contenedor = document.getElementById("contenedor-lista");
+
+            try {
+                const response = await fetch(`${URL_BASE_API}/clientes`, {
+                    method: "GET",
+                    headers: {
+                        "X-API-Key": API_KEY
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error ${response.status}: No se pudo consultar la lista`);
+                }
+
+                const datos = await response.json();
+                const archivos = datos[CLIENTE_ID] || [];
+
+                if (archivos.length === 0) {
+                    contenedor.innerHTML = `<div class="estado">📁 No hay archivos disponibles para este cliente.</div>`;
+                    return;
+                }
+
+                let htmlLista = `<ul class="lista-archivos">`;
+
+                archivos.forEach(archivo => {
+                    // Ruta directa donde el backend sirve el archivo estático
+                    const urlDescarga = `${URL_BASE_API}/archivos/${CLIENTE_ID}/${archivo}`;
+
+                    htmlLista += `
+                        <li class="item-archivo">
+                            <div class="info-archivo">
+                                <span class="icono">📄</span>
+                                <span class="nombre-archivo" title="${archivo}">${archivo}</span>
+                            </div>
+                            <a href="${urlDescarga}" class="btn-descargar" target="_blank" download>
+                                Descargar
+                            </a>
+                        </li>
+                    `;
+                });
+
+                htmlLista += `</ul>`;
+                contenedor.innerHTML = htmlLista;
+
+            } catch (error) {
+                console.error("Error al cargar archivos:", error);
+                contenedor.innerHTML = `<div class="estado">❌ Error al cargar los archivos.</div>`;
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", obtenerArchivosCliente);
+    </script>
+</body>
+</html>
