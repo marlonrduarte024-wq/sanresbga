@@ -149,7 +149,6 @@
 
                 const datos = await response.json();
                 
-                // Extraer únicamente la lista de la carpeta sanres_buc
                 const archivos = datos[CLIENTE_TARGET] || [];
 
                 if (archivos.length === 0) {
@@ -160,7 +159,8 @@
                 let htmlLista = `<ul class="lista-archivos">`;
 
                 archivos.forEach(archivo => {
-                    const urlDescarga = `${URL_BASE_API}/archivos/${CLIENTE_TARGET}/${archivo}`;
+                    // Se apunta directamente al alias /usuarios/ de Nginx
+                    const urlDescarga = `${URL_BASE_API}/usuarios/${CLIENTE_TARGET}/${archivo}`;
 
                     htmlLista += `
                         <li class="item-archivo">
@@ -180,7 +180,7 @@
 
             } catch (error) {
                 console.error("Error al cargar archivos:", error);
-                contenedor.innerHTML = `<div class="estado">❌ Error al conectar con el servidor. Revisa la configuración de CORS en FastAPI.</div>`;
+                contenedor.innerHTML = `<div class="estado">❌ Error al conectar con el servidor.</div>`;
             }
         }
 
