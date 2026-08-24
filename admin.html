@@ -87,7 +87,7 @@
             color: var(--primary);
             border-bottom: 2px solid var(--primary);
             padding-bottom: 6px;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             display: flex;
@@ -104,19 +104,38 @@
             font-weight: 600;
         }
 
+        /* GRUPOS POR FECHA / MES */
+        .grupo-mes {
+            margin-bottom: 24px;
+        }
+
+        .titulo-mes {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--primary-light);
+            background: #f0f4f8;
+            padding: 6px 12px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
         /* LISTA Y CARDS DE ARCHIVOS */
         .lista-archivos {
             list-style: none;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 8px;
         }
 
         .item-archivo {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 12px 16px;
+            padding: 10px 14px;
             border: 1px solid var(--border);
             border-radius: 8px;
             background: #fafafa;
@@ -140,20 +159,27 @@
             font-size: 1.2rem;
         }
 
-        .nombre-archivo {
-            font-size: 0.95rem;
+        .detalles-archivo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nombre-legible {
+            font-size: 0.9rem;
             font-weight: 600;
             color: var(--text);
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            overflow: hidden;
+        }
+
+        .nombre-original {
+            font-size: 0.75rem;
+            color: var(--text-muted);
         }
 
         .btn-descargar {
             background-color: var(--primary);
             color: #ffffff;
             text-decoration: none;
-            padding: 8px 16px;
+            padding: 6px 14px;
             border-radius: 6px;
             font-size: 0.8rem;
             font-weight: 600;
@@ -230,7 +256,7 @@
 </head>
 <body>
 
-    <!-- HEADER IDÉNTICO AL INDEX -->
+    <!-- HEADER -->
     <header>
         <img id="logo" class="logo" src="https://sanresbga.menwapp.com/LOGO.png" alt="Logo" onerror="this.style.display='none'">
         <h1 id="nombre-negocio" class="nombre-negocio">Cargando...</h1>
@@ -241,21 +267,21 @@
         </div>
     </header>
 
-    <!-- CONTENEDOR PRINCIPAL DE ARCHIVOS -->
+    <!-- CONTENEDOR PRINCIPAL -->
     <main>
         <div class="card-contenedor">
             <div class="titulo-seccion">
-                <span>Archivos y Cierres en la Nube</span>
+                <span>Cierres de Caja en la Nube</span>
                 <span id="badge-total" class="badge-count">0</span>
             </div>
 
             <div id="contenedor-lista">
-                <div class="loading">Cargando lista de archivos...</div>
+                <div class="loading">Cargando lista de cierres...</div>
             </div>
         </div>
     </main>
 
-    <!-- FOOTER IDÉNTICO AL INDEX -->
+    <!-- FOOTER -->
     <footer class="footer-menwapp">
         <div>
             <img class="logo-footer" src="https://capitalbga.menwapp.com/imagenes/ASCOMP.JPG" alt="ASCOMP Logo">
@@ -287,7 +313,12 @@
         const LOGO_DEFAULT = "https://sanresbga.menwapp.com/LOGO.png";
         const cb = `?t=${Date.now()}`;
 
-        // 1. CARGAR DATOS DEL NEGOCIO DESDE PERSO.DAT
+        const NOMBRES_MESES = [
+            "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+            "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+        ];
+
+        // CARGAR DATOS DE LA EMPRESA
         async function cargarDatosEmpresa() {
             const imgLogo = document.getElementById("logo");
             imgLogo.src = LOGO_DEFAULT;
@@ -297,7 +328,6 @@
                 if (!res.ok) throw new Error("No se pudo cargar el archivo .dat");
                 
                 const texto = await res.text();
-                
                 const campos = texto.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g)
                                    ?.map(c => c.replace(/^"|"$/g, '').trim()) || [];
 
@@ -308,12 +338,41 @@
                     document.getElementById("nit-negocio").innerText = campos[4] ? `NIT: ${campos[4]}` : '';
                 }
             } catch (e) {
-                console.warn("Aviso: Usando datos de respaldo para la empresa.", e);
+                console.warn("Aviso: Usando datos de respaldo.", e);
                 document.getElementById("nombre-negocio").innerText = "SANRES BGA";
             }
         }
 
-        // 2. OBTENER ARCHIVOS DEL CLIENTE
+        // PARSEAR NOMBRE DEL ARCHIVO: MM-DD-YY-TURNO.ext
+        function parsearNombreArchivo(nombre) {
+            const regex = /^(\d{2})-(\d{2})-(\d{2})-(\d+)\.(xlsx|dat)$/i;
+            const match = nombre.match(regex);
+
+            if (!match) return null;
+
+            const mes = parseInt(match[1], 10);
+            const dia = parseInt(match[2], 10);
+            const anio = 2000 + parseInt(match[3], 10);
+            const turno = match[4];
+            const ext = match[5].toLowerCase();
+
+            const fechaObj = new Date(anio, mes - 1, dia);
+
+            return {
+                nombreOriginal: nombre,
+                mes,
+                dia,
+                anio,
+                turno,
+                ext,
+                fechaObj,
+                claveMes: `${anio}-${String(mes).padStart(2, '0')}`,
+                etiquetaMes: `${NOMBRES_MESES[mes - 1]} ${anio}`,
+                etiquetaLegible: `${dia} de ${NOMBRES_MESES[mes - 1]} - Turno ${turno}`
+            };
+        }
+
+        // OBTENER Y AGRUPAR ARCHIVOS
         async function obtenerArchivosCliente() {
             const contenedor = document.getElementById("contenedor-lista");
             const badgeTotal = document.getElementById("badge-total");
@@ -321,45 +380,87 @@
             try {
                 const response = await fetch(`${URL_BASE_API}/clientes`, {
                     method: "GET",
-                    headers: {
-                        "X-API-Key": API_KEY
-                    }
+                    headers: { "X-API-Key": API_KEY }
                 });
 
-                if (!response.ok) {
-                    throw new Error(`Error HTTP: ${response.status}`);
-                }
+                if (!response.ok) throw new Error(`Error HTTP: ${response.status}`);
 
                 const datos = await response.json();
-                const archivos = datos[CLIENTE_TARGET] || [];
+                const listaNombres = datos[CLIENTE_TARGET] || [];
 
-                badgeTotal.innerText = archivos.length;
+                badgeTotal.innerText = listaNombres.length;
 
-                if (archivos.length === 0) {
-                    contenedor.innerHTML = `<div class="loading">📁 No hay archivos disponibles para descargar.</div>`;
+                if (listaNombres.length === 0) {
+                    contenedor.innerHTML = `<div class="loading">📁 No hay cierres disponibles para descargar.</div>`;
                     return;
                 }
 
-                let htmlLista = `<ul class="lista-archivos">`;
+                // Parsear y filtrar archivos válidos
+                const archivosParseados = listaNombres
+                    .map(parsearNombreArchivo)
+                    .filter(a => a !== null);
 
-                archivos.forEach(archivo => {
-                    const urlDescarga = `${URL_BASE_API}/usuarios/${CLIENTE_TARGET}/${archivo}`;
-
-                    htmlLista += `
-                        <li class="item-archivo">
-                            <div class="info-archivo">
-                                <span class="icono-archivo">📄</span>
-                                <span class="nombre-archivo" title="${archivo}">${archivo}</span>
-                            </div>
-                            <a href="${urlDescarga}" class="btn-descargar" target="_blank" download>
-                                Descargar
-                            </a>
-                        </li>
-                    `;
+                // Ordenar por fecha y turno (descendente: más recientes primero)
+                archivosParseados.sort((a, b) => {
+                    if (b.fechaObj.getTime() !== a.fechaObj.getTime()) {
+                        return b.fechaObj.getTime() - a.fechaObj.getTime();
+                    }
+                    return b.turno - a.turno;
                 });
 
-                htmlLista += `</ul>`;
-                contenedor.innerHTML = htmlLista;
+                // Agrupar por Mes
+                const grupos = {};
+                archivosParseados.forEach(archivo => {
+                    if (!grupos[archivo.claveMes]) {
+                        grupos[archivo.claveMes] = {
+                            etiqueta: archivo.etiquetaMes,
+                            items: []
+                        };
+                    }
+                    grupos[archivo.claveMes].items.push(archivo);
+                });
+
+                // Renderizar Grupos
+                let htmlResultado = "";
+
+                for (const clave in grupos) {
+                    const grupo = grupos[clave];
+
+                    htmlResultado += `
+                        <div class="grupo-mes">
+                            <div class="titulo-mes">
+                                📅 ${grupo.etiqueta}
+                            </div>
+                            <ul class="lista-archivos">
+                    `;
+
+                    grupo.items.forEach(item => {
+                        const urlDescarga = `${URL_BASE_API}/usuarios/${CLIENTE_TARGET}/${item.nombreOriginal}`;
+                        const icono = item.ext === 'xlsx' ? '📊' : '📄';
+
+                        htmlResultado += `
+                            <li class="item-archivo">
+                                <div class="info-archivo">
+                                    <span class="icono-archivo">${icono}</span>
+                                    <div class="detalles-archivo">
+                                        <span class="nombre-legible">${item.etiquetaLegible}</span>
+                                        <span class="nombre-original">${item.nombreOriginal}</span>
+                                    </div>
+                                </div>
+                                <a href="${urlDescarga}" class="btn-descargar" target="_blank" download>
+                                    Descargar
+                                </a>
+                            </li>
+                        `;
+                    });
+
+                    htmlResultado += `
+                            </ul>
+                        </div>
+                    `;
+                }
+
+                contenedor.innerHTML = htmlResultado;
 
             } catch (error) {
                 console.error("Error al cargar archivos:", error);
