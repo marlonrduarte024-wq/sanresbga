@@ -277,10 +277,13 @@
         </div>
     </footer>
 
-    <script>
+   <script>
         // CONFIGURACIÓN DE ARCHIVOS Y RECURSOS
+        const CLIENTE_TARGET = "sanres_buc";
+        const URL_BASE_API = "https://nube-ascomp.menwapp.com";
+
         const DAT_URL = "PERSO.DAT"; 
-        const MENU_URL = "https://nube-ascomp.menwapp.com/sanres_buc/menu.json";   
+        const MENU_URL = `${URL_BASE_API}/usuarios/${CLIENTE_TARGET}/menu.json`;   
         const LOGO_DEFAULT = "https://sanresbga.menwapp.com/LOGO.png";
         const cb = `?t=${Date.now()}`;
 
