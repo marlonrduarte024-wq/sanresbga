@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualizador de Archivos</title>
+    <title>Archivos - Sanres BGA</title>
     <style>
         :root {
             --primary: #0F2C59;
@@ -31,7 +31,7 @@
         }
 
         .container {
-            max-width: 600px;
+            max-width: 650px;
             width: 100%;
             background: var(--card-bg);
             border: 1px solid var(--border);
@@ -49,7 +49,6 @@
             font-size: 1.4rem;
             color: var(--primary);
             text-transform: uppercase;
-            letter-spacing: 0.5px;
             font-weight: 700;
         }
 
@@ -74,11 +73,6 @@
             border: 1px solid var(--border);
             border-radius: 8px;
             background: #fafafa;
-            transition: background 0.2s ease;
-        }
-
-        .item-archivo:hover {
-            background: #f0f4f8;
         }
 
         .info-archivo {
@@ -86,10 +80,6 @@
             align-items: center;
             gap: 10px;
             overflow: hidden;
-        }
-
-        .icono {
-            font-size: 1.2rem;
         }
 
         .nombre-archivo {
@@ -110,7 +100,6 @@
             font-size: 0.8rem;
             font-weight: 600;
             white-space: nowrap;
-            transition: background-color 0.2s ease;
         }
 
         .btn-descargar:hover {
@@ -129,18 +118,17 @@
 
     <div class="container">
         <header>
-            <h1 class="titulo-cliente" id="nombre-cliente">SANRES_BUC</h1>
-            <p class="subtitulo">Archivos y cierres disponibles</p>
+            <h1 class="titulo-cliente">SANRES_BUC</h1>
+            <p class="subtitulo">Archivos y cierres en la nube</p>
         </header>
 
         <div id="contenedor-lista">
-            <div class="estado">Cargando archivos...</div>
+            <div class="estado">Cargando lista de archivos...</div>
         </div>
     </div>
 
     <script>
-        // CONFIGURACIÓN DE PARÁMETROS
-        const CLIENTE_ID = "sanres_buc"; 
+        const CLIENTE_TARGET = "sanres_buc";
         const URL_BASE_API = "https://nube-ascomp.menwapp.com";
         const API_KEY = "Ascomp22*";
 
@@ -156,27 +144,28 @@
                 });
 
                 if (!response.ok) {
-                    throw new Error(`Error ${response.status}: No se pudo consultar la lista`);
+                    throw new Error(`Error HTTP: ${response.status}`);
                 }
 
                 const datos = await response.json();
-                const archivos = datos[CLIENTE_ID] || [];
+                
+                // Extraer únicamente la lista de la carpeta sanres_buc
+                const archivos = datos[CLIENTE_TARGET] || [];
 
                 if (archivos.length === 0) {
-                    contenedor.innerHTML = `<div class="estado">📁 No hay archivos disponibles para este cliente.</div>`;
+                    contenedor.innerHTML = `<div class="estado">📁 No hay archivos disponibles.</div>`;
                     return;
                 }
 
                 let htmlLista = `<ul class="lista-archivos">`;
 
                 archivos.forEach(archivo => {
-                    // Ruta directa donde el backend sirve el archivo estático
-                    const urlDescarga = `${URL_BASE_API}/archivos/${CLIENTE_ID}/${archivo}`;
+                    const urlDescarga = `${URL_BASE_API}/archivos/${CLIENTE_TARGET}/${archivo}`;
 
                     htmlLista += `
                         <li class="item-archivo">
                             <div class="info-archivo">
-                                <span class="icono">📄</span>
+                                <span>📄</span>
                                 <span class="nombre-archivo" title="${archivo}">${archivo}</span>
                             </div>
                             <a href="${urlDescarga}" class="btn-descargar" target="_blank" download>
@@ -191,7 +180,7 @@
 
             } catch (error) {
                 console.error("Error al cargar archivos:", error);
-                contenedor.innerHTML = `<div class="estado">❌ Error al cargar los archivos.</div>`;
+                contenedor.innerHTML = `<div class="estado">❌ Error al conectar con el servidor. Revisa la configuración de CORS en FastAPI.</div>`;
             }
         }
 
