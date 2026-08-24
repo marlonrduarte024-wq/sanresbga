@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivos - Sanres BGA</title>
+    <title>Archivos y Cierres - ASCOMP</title>
     <style>
         :root {
-            --primary: #0F2C59;
-            --primary-light: #1B4D89;
-            --bg: #f4f6f9;
-            --card-bg: #ffffff;
-            --text: #111827;
-            --text-muted: #6B7280;
-            --border: #E5E7EB;
+            --primary: #0F2C59;       /* Azul oscuro principal */
+            --primary-light: #1B4D89; /* Azul medio para hover y destacados */
+            --bg: #f4f6f9;             /* Fondo gris ultra suave */
+            --card-bg: #ffffff;       /* Blanco puro */
+            --text: #111827;          /* Texto oscuro legible */
+            --text-muted: #6B7280;    /* Texto secundario */
+            --border: #E5E7EB;        /* Borde sutil */
         }
 
         * {
@@ -25,39 +25,86 @@
         body {
             background-color: var(--bg);
             color: var(--text);
-            padding: 20px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
-        .container {
-            max-width: 650px;
+        /* HEADER & DATOS DEL NEGOCIO */
+        header {
+            background-color: var(--card-bg);
+            text-align: center;
+            padding: 24px 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 120px;
+            max-height: 90px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            margin-bottom: 12px;
+        }
+
+        .nombre-negocio {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        .info-negocio {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        /* CONTENEDOR PRINCIPAL */
+        main {
+            max-width: 700px;
             width: 100%;
+            margin: 0 auto;
+            padding: 0 16px;
+            flex: 1;
+        }
+
+        .card-contenedor {
             background: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 12px;
             padding: 24px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
         }
 
-        header {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        .titulo-cliente {
-            font-size: 1.4rem;
-            color: var(--primary);
-            text-transform: uppercase;
+        .titulo-seccion {
+            font-size: 1.15rem;
             font-weight: 700;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 6px;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
-        .subtitulo {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-top: 4px;
+        .badge-count {
+            background: #EBF1F6;
+            color: var(--primary);
+            font-size: 0.8rem;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-weight: 600;
         }
 
+        /* LISTA Y CARDS DE ARCHIVOS */
         .lista-archivos {
             list-style: none;
             display: flex;
@@ -73,13 +120,24 @@
             border: 1px solid var(--border);
             border-radius: 8px;
             background: #fafafa;
+            transition: all 0.2s ease;
+        }
+
+        .item-archivo:hover {
+            border-color: #cbd5e1;
+            background: #ffffff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
         }
 
         .info-archivo {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             overflow: hidden;
+        }
+
+        .icono-archivo {
+            font-size: 1.2rem;
         }
 
         .nombre-archivo {
@@ -95,45 +153,170 @@
             background-color: var(--primary);
             color: #ffffff;
             text-decoration: none;
-            padding: 6px 14px;
+            padding: 8px 16px;
             border-radius: 6px;
             font-size: 0.8rem;
             font-weight: 600;
             white-space: nowrap;
+            transition: background-color 0.2s ease;
         }
 
         .btn-descargar:hover {
             background-color: var(--primary-light);
         }
 
-        .estado {
+        /* ESTADO DE CARGA Y MENSAJES */
+        .loading {
             text-align: center;
-            padding: 20px;
+            padding: 30px;
+            font-size: 0.95rem;
             color: var(--text-muted);
-            font-size: 0.9rem;
+        }
+
+        /* FOOTER CENTRADO */
+        .footer-menwapp {
+            background: var(--card-bg);
+            border-top: 1px solid var(--border);
+            padding: 24px 16px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-menwapp .logo-footer {
+            height: 38px;
+            width: auto;
+            margin-bottom: 8px;
+            object-fit: contain;
+        }
+
+        .footer-menwapp .descripcion {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin: 4px 0 12px 0;
+            max-width: 400px;
+        }
+
+        .footer-menwapp .btn-whatsapp-footer {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            background: #25D366;
+            color: #ffffff;
+            padding: 9px 18px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            box-shadow: 0 2px 6px rgba(37, 211, 102, 0.2);
+            transition: transform 0.2s ease;
+        }
+
+        .footer-menwapp .btn-whatsapp-footer:active {
+            transform: scale(0.98);
+        }
+
+        .footer-menwapp .copyright {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 14px;
+            line-height: 1.4;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <h1 class="titulo-cliente">SANRES_BUC</h1>
-            <p class="subtitulo">Archivos y cierres en la nube</p>
-        </header>
-
-        <div id="contenedor-lista">
-            <div class="estado">Cargando lista de archivos...</div>
+    <!-- HEADER IDÉNTICO AL INDEX -->
+    <header>
+        <img id="logo" class="logo" src="https://sanresbga.menwapp.com/LOGO.png" alt="Logo" onerror="this.style.display='none'">
+        <h1 id="nombre-negocio" class="nombre-negocio">Cargando...</h1>
+        <div class="info-negocio">
+            <span id="nit-negocio"></span>
+            <span id="direccion-negocio"></span>
+            <span id="telefono-negocio"></span>
         </div>
-    </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL DE ARCHIVOS -->
+    <main>
+        <div class="card-contenedor">
+            <div class="titulo-seccion">
+                <span>Archivos y Cierres en la Nube</span>
+                <span id="badge-total" class="badge-count">0</span>
+            </div>
+
+            <div id="contenedor-lista">
+                <div class="loading">Cargando lista de archivos...</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER IDÉNTICO AL INDEX -->
+    <footer class="footer-menwapp">
+        <div>
+            <img class="logo-footer" src="https://capitalbga.menwapp.com/imagenes/ASCOMP.JPG" alt="ASCOMP Logo">
+        </div>
+        
+        <div class="descripcion">
+            Desarrollamos tu sistema de Gestor de pedidos con menú digital
+        </div>
+        
+        <div class="soporte">
+            <a class="btn-whatsapp-footer" 
+               href="https://wa.me/573108094441?text=hola,%20tengo%20un%20restaurante%20y%20quiero%20sistematizar%20mi%20negocio" 
+               target="_blank">
+               📲 Información sobre el sistema
+            </a>
+        </div>
+        
+        <div class="copyright">
+            Solución hecha por <strong>ASCOMP</strong><br>
+            Exclusivo para el sistema POS <strong>ASCOMP</strong>
+        </div>
+    </footer>
 
     <script>
         const CLIENTE_TARGET = "sanres_buc";
         const URL_BASE_API = "https://nube-ascomp.menwapp.com";
         const API_KEY = "Ascomp22*";
+        const DAT_URL = "PERSO.DAT"; 
+        const LOGO_DEFAULT = "https://sanresbga.menwapp.com/LOGO.png";
+        const cb = `?t=${Date.now()}`;
 
+        // 1. CARGAR DATOS DEL NEGOCIO DESDE PERSO.DAT
+        async function cargarDatosEmpresa() {
+            const imgLogo = document.getElementById("logo");
+            imgLogo.src = LOGO_DEFAULT;
+
+            try {
+                const res = await fetch(`${DAT_URL}${cb}`);
+                if (!res.ok) throw new Error("No se pudo cargar el archivo .dat");
+                
+                const texto = await res.text();
+                
+                const campos = texto.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g)
+                                   ?.map(c => c.replace(/^"|"$/g, '').trim()) || [];
+
+                if (campos.length >= 5) {
+                    document.getElementById("nombre-negocio").innerText = campos[1] || "Restaurante";
+                    document.getElementById("direccion-negocio").innerText = campos[2] ? `📍 ${campos[2]}` : '';
+                    document.getElementById("telefono-negocio").innerText = campos[3] ? `📞 ${campos[3]}` : '';
+                    document.getElementById("nit-negocio").innerText = campos[4] ? `NIT: ${campos[4]}` : '';
+                }
+            } catch (e) {
+                console.warn("Aviso: Usando datos de respaldo para la empresa.", e);
+                document.getElementById("nombre-negocio").innerText = "SANRES BGA";
+            }
+        }
+
+        // 2. OBTENER ARCHIVOS DEL CLIENTE
         async function obtenerArchivosCliente() {
             const contenedor = document.getElementById("contenedor-lista");
+            const badgeTotal = document.getElementById("badge-total");
 
             try {
                 const response = await fetch(`${URL_BASE_API}/clientes`, {
@@ -148,24 +331,24 @@
                 }
 
                 const datos = await response.json();
-                
                 const archivos = datos[CLIENTE_TARGET] || [];
 
+                badgeTotal.innerText = archivos.length;
+
                 if (archivos.length === 0) {
-                    contenedor.innerHTML = `<div class="estado">📁 No hay archivos disponibles.</div>`;
+                    contenedor.innerHTML = `<div class="loading">📁 No hay archivos disponibles para descargar.</div>`;
                     return;
                 }
 
                 let htmlLista = `<ul class="lista-archivos">`;
 
                 archivos.forEach(archivo => {
-                    // Se apunta directamente al alias /usuarios/ de Nginx
                     const urlDescarga = `${URL_BASE_API}/usuarios/${CLIENTE_TARGET}/${archivo}`;
 
                     htmlLista += `
                         <li class="item-archivo">
                             <div class="info-archivo">
-                                <span>📄</span>
+                                <span class="icono-archivo">📄</span>
                                 <span class="nombre-archivo" title="${archivo}">${archivo}</span>
                             </div>
                             <a href="${urlDescarga}" class="btn-descargar" target="_blank" download>
@@ -180,11 +363,15 @@
 
             } catch (error) {
                 console.error("Error al cargar archivos:", error);
-                contenedor.innerHTML = `<div class="estado">❌ Error al conectar con el servidor.</div>`;
+                contenedor.innerHTML = `<div class="loading">❌ No se pudo conectar con el servidor de archivos.</div>`;
             }
         }
 
-        document.addEventListener("DOMContentLoaded", obtenerArchivosCliente);
+        // INICIALIZACIÓN
+        document.addEventListener("DOMContentLoaded", () => {
+            cargarDatosEmpresa();
+            obtenerArchivosCliente();
+        });
     </script>
 </body>
 </html>
